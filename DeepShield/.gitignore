@@ -1,0 +1,97 @@
+# DeepShield .gitignore
+
+# Python & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment Configurations & Secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Machine Learning Checkpoints, Weights & Cache
+models/
+checkpoints/
+weights/
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+*.h5
+*.tflite
+.cache/
+huggingface/
+torch/
+
+# Uploaded Media, Heatmaps & User Data
+uploads/
+temp/
+tmp/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.gif
+!samples/real/.gitkeep
+!samples/fake/.gitkeep
+
+# Database Files
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Logs & Testing
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Node.js & Frontend (Future Phase)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.next/
+out/
+
+# IDEs & Operating System
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db

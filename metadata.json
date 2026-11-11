@@ -1,0 +1,8 @@
+{
+  "name": "Remix DeepShield",
+  "description": "Explainable AI-powered facial deepfake detection platform analyzing images, classifying manipulation, and generating Grad-CAM visual heatmaps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

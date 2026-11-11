@@ -1,0 +1,41 @@
+# DeepShield Root .gitignore
+
+# Node & Frontend
+node_modules
+dist
+dist-ssr
+*.local
+
+# Python & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+
+# AI Models & Weights
+*.pt
+*.pth
+*.onnx
+*.bin
+*.safetensors
+*.h5
+checkpoints/
+weights/
+
+# Temporary files & uploads
+uploads/
+temp/
+tmp/
+*.sqlite
+*.sqlite3
+*.db
+.pytest_cache/
+.coverage
