@@ -113,12 +113,12 @@ export const GradCAMVisualizer: React.FC<GradCAMVisualizerProps> = ({ face }) =>
                 {/* Colormap Legend */}
                 <div className="p-3 rounded-lg bg-slate-900/90 border border-slate-800 space-y-2">
                   <span className="text-[11px] font-medium text-slate-300 block">
-                    Feature Activation Scale
+                    Grad-CAM Activation Intensity
                   </span>
                   <div className="h-3 rounded-md bg-gradient-to-r from-blue-700 via-cyan-400 via-yellow-400 to-red-600 shadow-inner" />
                   <div className="flex justify-between text-[10px] text-slate-400 font-mono">
-                    <span>Low Influence</span>
-                    <span>High Activation</span>
+                    <span>Baseline (Low)</span>
+                    <span>Peak Intensity (High)</span>
                   </div>
                 </div>
               </div>
